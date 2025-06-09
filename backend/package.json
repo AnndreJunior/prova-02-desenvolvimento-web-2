@@ -2,7 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint . --fix",
+    "format": "prettier . --write"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AnndreJunior/prova-02-desenvolvimento-web-2.git"
@@ -10,5 +13,11 @@
   "bugs": {
     "url": "https://github.com/AnndreJunior/prova-02-desenvolvimento-web-2/issues"
   },
-  "homepage": "https://github.com/AnndreJunior/prova-02-desenvolvimento-web-2#readme"
+  "homepage": "https://github.com/AnndreJunior/prova-02-desenvolvimento-web-2#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3"
+  }
 }
