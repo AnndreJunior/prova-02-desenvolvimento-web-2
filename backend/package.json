@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnndreJunior/prova-02-desenvolvimento-web-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnndreJunior/prova-02-desenvolvimento-web-2/issues"
+  },
+  "homepage": "https://github.com/AnndreJunior/prova-02-desenvolvimento-web-2#readme"
+}
