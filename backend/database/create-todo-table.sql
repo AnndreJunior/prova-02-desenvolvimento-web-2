@@ -1,0 +1,8 @@
+USE todo;
+
+CREATE TABLE todos(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  descricao VARCHAR(255) NOT NULL,
+  status BOOLEAN DEFAULT false,
+  data_criacao DATETIME DEFAULT CURRENT_TIMESTAMP
+);
